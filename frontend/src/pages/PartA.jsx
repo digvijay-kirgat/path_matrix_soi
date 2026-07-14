@@ -54,7 +54,7 @@ export default function PartA() {
     const startTime = performance.now();
 
     try {
-      const response = await fetch('http://localhost:8000/api/part-a/optimize', {
+      const response = await fetch('https://route-planner-ud5t.onrender.com/api/part-a/optimize', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
